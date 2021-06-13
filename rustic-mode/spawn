@@ -1,0 +1,6 @@
+# name: spawn(proc() { ... });
+# key: spawn
+# --
+spawn(proc() {
+      $0
+});

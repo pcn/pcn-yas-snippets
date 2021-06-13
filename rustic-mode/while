@@ -1,0 +1,6 @@
+# name: while expression { ... }
+# key: while
+# --
+while ${1:expression} {
+      $0
+}

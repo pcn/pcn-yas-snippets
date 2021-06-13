@@ -1,0 +1,6 @@
+# name: pub fn name() { ... }
+# key: pfn
+# --
+pub fn ${1:name}($2) {
+    $0
+}

@@ -2,6 +2,6 @@
 # name: fn return
 # key: fnr
 # --
-fn ${1:name}() -> ${2:return} {
+fn ${1:name}($2) -> ${3:Type} {
    $0
 }

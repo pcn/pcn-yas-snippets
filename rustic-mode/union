@@ -1,0 +1,6 @@
+# name: union Type { ... }
+# key: union
+# --
+union ${1:Type} {
+     $0
+}

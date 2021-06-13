@@ -1,5 +1,4 @@
-# -*- mode: snippet -*-
-# name: type
+# name: type TypeName = TypeName;
 # key: type
 # --
-type ${1:Name} = ${2:ExistingType};
+type ${1:TypeName} = ${2:TypeName};

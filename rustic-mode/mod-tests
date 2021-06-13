@@ -1,11 +1,11 @@
-# -*- mode: snippet -*-
-# name: mod-test
-# key: mod-test
+# name: test module
+# key: testmod
 # --
 #[cfg(test)]
-mod tests {
+mod ${1:tests} {
+    use super::*;
     #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
+    fn ${2:test_name}() {
+       $0
     }
 }

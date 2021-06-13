@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
 #name : derive
-#key : derive
+#key : derivet
 #contributor : Robert Krahn
 # --
 #[derive($0)]

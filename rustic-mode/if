@@ -1,0 +1,6 @@
+# name: if expr { ... }
+# key: if
+# --
+if ${1:expression} {
+    $0
+}

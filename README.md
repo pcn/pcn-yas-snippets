@@ -11,3 +11,5 @@ it, which results in some odds-and-ends in here that I want to save.
 Copying rustic/rust snippets from
 https://github.com/rksm/emacs-rust-config/tree/master/snippets/rustic-mode,
 cloned into `github.com:pcn/emacs-rust-config`
+
+and https://takeokunn.github.io/.emacs.d/yasnippets.html#org4b4cf9c

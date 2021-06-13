@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
-#name : new-fn
+#name : fn new ( ... ) -> < ... > { ... }
 #key : newfn
-#contributor : Robert Krahn
+#contributor : Mixed
 # --
-pub fn new() -> Self {
-    $0
+pub fn new($1) -> ${2:Name} {
+    $2 { ${3} }
 }

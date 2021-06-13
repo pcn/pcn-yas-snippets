@@ -1,5 +1,4 @@
-# -*- mode: snippet -*-
-# name: eprintln
-# key: p
+# name: println!("{}", value);
+# key: println
 # --
-println!("$1");
+println!("${1:{\}}", $2);

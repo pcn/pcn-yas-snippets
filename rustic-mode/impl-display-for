@@ -1,7 +1,7 @@
 # -*- mode: snippet -*-
-#name : impl-display-for
-#key : impldisplay
-#contributor : Robert Krahn
+#name: impl Display for Type { fn fmt (...) }
+#key : display
+#contributor : Mixed contributors
 # --
 impl std::fmt::Display for ${1:Name} {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {

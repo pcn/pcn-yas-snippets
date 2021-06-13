@@ -1,0 +1,4 @@
+# name: let pattern: type = expression;
+# key: lett
+# --
+let ${1:pattern}: ${2:type} = ${3:expression};

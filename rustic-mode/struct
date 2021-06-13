@@ -2,6 +2,6 @@
 # name: struct
 # key: struct
 # --
-struct ${1:Name} {
+struct ${1:TypeName} {
     ${2:member}: ${3:type},
 }

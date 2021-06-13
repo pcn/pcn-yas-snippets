@@ -1,10 +1,9 @@
-# -*- mode: snippet -*-
-#name : impl_from
-#key : impl_from
-#contributor : Robert Krahn
+# name: impl From<From> for Type { fn from(...) }
+# key: from
 # --
-impl From<${1:from}> for ${2:For} {
-    fn from(${3:arg}: $1) -> Self {
-        $2 {$0}
+impl From<${1:From}> for ${2:Type} {
+    fn from(source: $1) -> Self {
+       $0
+       Self { }
     }
 }

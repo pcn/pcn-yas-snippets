@@ -1,9 +1,6 @@
-# -*- mode: snippet -*-
-# name: impl
+# name: impl Type { ... }
 # key: impl
 # --
-impl ${1:Name} {
-    fn ${2:method}(${3:&self}) $4 {
-        $0
-    }
+impl ${1:Type} {
+     $0
 }
