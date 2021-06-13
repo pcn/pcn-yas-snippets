@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Peter C. Norton
+# name: canvas_given
+# key: cvg
+# --
+@given('$1 = $2({width:d}, {height:d})')
+def step_impl(context, width, height):
+    context.$1 = canvas.${2:$(aya--upcase-first-char yas-text)}(width, height)

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Peter C. Norton
+# name: features_steps_then
+# key: fsw
+# --
+@when('$1($2)')
+def step_impl(context, $2):
+    $1($2)

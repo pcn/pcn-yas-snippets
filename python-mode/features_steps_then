@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Peter C. Norton
+# name: features_steps_then
+# key: tst
+# --
+@then('$1')
+def step_impl(context, $2):
+    assert $3 $2

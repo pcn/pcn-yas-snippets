@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# contributor: Peter C. Norton
+# name: vec_tuple_given
+# key: tsg
+# --
+@given('$1 is a $2({x:f}, {y:f}, {z:f})')
+def step_impl(context, x, y, z):
+    context.$1 = tuples.${2:$(aya--upcase-first-char yas-text)}(x, y, z)

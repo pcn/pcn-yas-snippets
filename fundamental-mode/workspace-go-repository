@@ -1,0 +1,12 @@
+# -*- mode: snippet -*-
+# contributor: Peter C. Norton
+# name: workspace-go-repository
+# key: go_rep
+# --
+go_repository(
+    name = "com_github_$1_$2",
+    importpath = "github.com/$1/$2",
+    urls = ["https://github.com/$1/$2/archive/v$3.zip"],
+    strip_prefix = "$2-$3",
+    type = "zip",
+)
