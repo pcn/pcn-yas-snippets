@@ -1,4 +1,0 @@
-# name: rpc bidirection-streaming
-# key: rpcbs
-# --
-rpc ${1:message name}(stream $1Request) returns (stream $1Response) {}; 

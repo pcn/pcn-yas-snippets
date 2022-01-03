@@ -1,6 +1,0 @@
-# -*- mode: snippet -*-
-# name: match arm
-# key: mar
-# --
-
-$1 => $2,

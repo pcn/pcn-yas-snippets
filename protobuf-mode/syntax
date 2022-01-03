@@ -1,8 +1,0 @@
-# name: gprc/proto3 syntax declaration
-# key: syntax
-# --
-syntax = "proto3";
-
-package ${1: message name};
-
-

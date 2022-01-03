@@ -1,4 +1,0 @@
-# name: rpc unary
-# key: rpcu
-# --
-rpc $1($1Request) returns ($1Response) {};

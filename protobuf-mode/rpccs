@@ -1,4 +1,0 @@
-# name: rpc client streaming
-# key: rpccs
-# --
-rpc $1(stream $1Request) returns ($1Response) {};
