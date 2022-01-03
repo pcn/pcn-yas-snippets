@@ -1,0 +1,6 @@
+# name: gprc/protobuf message
+# key: msg
+# --
+message ${1: message name} {
+	${2: type} ${3: name} = ${4: order};
+}

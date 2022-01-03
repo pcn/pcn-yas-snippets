@@ -1,0 +1,4 @@
+# name: pub const name: type = value
+# key: pcst
+# --
+pub const $1: $2 = $3

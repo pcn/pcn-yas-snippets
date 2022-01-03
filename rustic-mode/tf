@@ -1,0 +1,4 @@
+# name: turbofish
+# key: tfsh
+# --
+<($1)>::$2()
