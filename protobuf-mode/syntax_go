@@ -1,0 +1,9 @@
+# name: gprc/proto3 syntax declaration for a go project
+# key: syntax_go
+# --
+syntax = "proto3";
+
+package ${1: message name};
+
+option go_package = "./;$1pb";
+

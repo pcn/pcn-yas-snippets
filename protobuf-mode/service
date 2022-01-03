@@ -1,0 +1,6 @@
+# name: grpc/protobuf service
+# key: service
+# --
+service $1 {
+  $0
+}
