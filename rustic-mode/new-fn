@@ -1,8 +1,8 @@
 # -*- mode: snippet -*-
 #name : fn new ( ... ) -> < ... > { ... }
-#key : newfn
+#key : fnnew
 #contributor : Mixed
 # --
 pub fn new($1) -> ${2:Name} {
-    $2 { ${3} }
+    $2 { $3 }
 }
