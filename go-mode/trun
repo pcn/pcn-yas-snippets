@@ -1,0 +1,7 @@
+# name: t.Run func
+# key: trun
+# --
+
+t.Run("${1:description}", func(t *testing.${2:member name}) {
+
+  })
