@@ -2,6 +2,6 @@
 # key: trun
 # --
 
-t.Run("${1:description}", func(t *testing.${2:member name}) {
+t.Run("${1:description}", func(t *testing.${2:member_name}) {
 
   })
